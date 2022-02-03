@@ -29,22 +29,13 @@
         
         <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
         
-        <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application/activity" android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!--<data android:scheme="$URL_SCHEME" android:host="prelogin"/>-->
             </intent-filter>
-        </config-file>
-        
-        <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:name=".MainActivity" android:exported="true">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
-            </activity> 
         </config-file>
 
 
