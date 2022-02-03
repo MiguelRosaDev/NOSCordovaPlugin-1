@@ -37,7 +37,7 @@
                 <!--<data android:scheme="$URL_SCHEME" android:host="prelogin"/>-->
             </intent-filter>
         </config-file>
-        
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <activity android:exported="true" tools:node="merge" />
         </config-file>
