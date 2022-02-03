@@ -39,7 +39,7 @@
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity> android:exported="false|true" tools:node="merge" />
+            <activity android:exported="false|true" tools:node="merge" />
         </config-file>
 
 
