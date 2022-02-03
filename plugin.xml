@@ -29,11 +29,8 @@
         
         <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
         
-        <edit-config file="AndroidManifest.xml" target="/manifest/application/activity" mode="overwrite">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
             <activity android:exported="true"/>
-        </edit-config>
-        
-        <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" android:exported="true" />
                 <category android:name="android.intent.category.DEFAULT" />
