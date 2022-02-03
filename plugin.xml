@@ -32,7 +32,7 @@
         <config-file target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
             <activity android:exported="true"/>
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" android:exported="true" />
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
