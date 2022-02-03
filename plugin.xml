@@ -29,7 +29,7 @@
         
         <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
         
-        <edit-config file="AndroidManifest.xml" target="/manifest/application/activity" mode="merge">
+        <edit-config file="AndroidManifest.xml" target="/manifest/application/activity" mode="overwrite">
             <activity android:exported="true"/>
         </edit-config>
         
