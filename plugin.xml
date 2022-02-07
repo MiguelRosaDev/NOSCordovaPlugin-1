@@ -30,17 +30,17 @@
         </config-file>
         <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
         
-          <!--
+      
 
-        <config-file target="AndroidManifest.xml" parent="/manifest/application" >
-            <activity android:exported="true"/>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application/activity" >
+            <!--<activity android:exported="true"/>-->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </config-file>
-        -->
+
 
 
         <source-file src="src/android/NOSPluginExternalWebView.java" target-dir="src/pt/nos/cordova/plugin" />
