@@ -16,7 +16,7 @@
                 <param name="android-package" value="pt.nos.cordova.plugin.NOSCordovaPlugin" />
             </feature>
         </config-file>
-        <!--
+      
         <config-file parent="/manifest" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.INTERNET" />
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -28,11 +28,11 @@
             <activity android:label="" android:name="pt.nos.cordova.plugin.NOSPluginInternalLogin" />
 
         </config-file>
-        -->
+
         
         <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
         
-   
+          <!--
         <config-file target="AndroidManifest.xml" parent="/manifest/application" >
             <activity android:exported="true"/>
             <intent-filter>
@@ -41,6 +41,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
             </intent-filter>
         </config-file>
+        -->
 
 
         <source-file src="src/android/NOSPluginExternalWebView.java" target-dir="src/pt/nos/cordova/plugin" />
