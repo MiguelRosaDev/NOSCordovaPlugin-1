@@ -5,11 +5,12 @@
         <clobbers target="cordova.plugins.NOSCordovaPlugin" />
     </js-module>
 
-    <dependency id="cordova-plugin-add-swift-support" version="2.0.2" />
+    <!--<dependency id="cordova-plugin-add-swift-support" version="2.0.2" />-->
 
     <!--<preference name="URL_SCHEME" />-->
 
     <platform name="android">
+        <!--
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="NOSCordovaPlugin">
                 <param name="android-package" value="pt.nos.cordova.plugin.NOSCordovaPlugin" />
@@ -67,7 +68,7 @@
         <source-file src="src/android/helpers/CustomTabsHelper.java"          target-dir="src/pt/nos/cordova/plugin/helpers" />
         <source-file src="src/android/helpers/ServiceConnection.java"         target-dir="src/pt/nos/cordova/plugin/helpers" />
         <source-file src="src/android/helpers/ServiceConnectionCallback.java" target-dir="src/pt/nos/cordova/plugin/helpers" />
-
+    -->
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
