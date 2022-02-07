@@ -28,12 +28,9 @@
             <activity android:label="" android:name="pt.nos.cordova.plugin.NOSPluginInternalLogin" />
 
         </config-file>
-
-        <!--
-        <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
--->
         
           <!--
+<source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
         <config-file target="AndroidManifest.xml" parent="/manifest/application" >
             <activity android:exported="true"/>
             <intent-filter>
