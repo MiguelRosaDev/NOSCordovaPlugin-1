@@ -29,8 +29,9 @@
 
         </config-file>
 
-        
+        <!--
         <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
+-->
         
           <!--
         <config-file target="AndroidManifest.xml" parent="/manifest/application" >
