@@ -29,7 +29,7 @@
         
         <source-file src="src/android/NOSCordovaPlugin.java" target-dir="src/pt/nos/cordova/plugin" />
         
-        <config-file target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application" >
             <activity android:exported="true"/>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
